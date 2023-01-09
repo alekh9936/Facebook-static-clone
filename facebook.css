@@ -1,0 +1,161 @@
+body{
+	background-color:#f4f4f4;
+	color:#000;
+	font-family:times new roman;
+	font-size:100%;
+	line-height:1.6em;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+.container{
+	width:100%;
+	overflow:hidden;
+}
+
+.box{
+	margin-top: 10%;
+	margin-left: 15%;
+    float: left;
+	width:auto;
+	box-sizing: border-box;
+	padding:30px 20px;
+	
+}
+
+.logo{
+	height:106px;
+	margin-bottom: -60px;
+	margin-left: -17px;
+	background-repeat: no-repeat;
+	width: 200px;
+	text-align: left;
+}
+
+.box .main-text h2{
+	color:#000;
+	font-size: 110%;
+	width: 300px;
+	line-height: 1em;
+	text-align: left;
+	margin-top: 20px;
+	font-family: calibri;
+}
+
+.login-form{
+	margin-top: 10%;
+	margin-right: 28%;
+    float: right;
+    width: 30%;
+	box-sizing: border-box;
+	padding:20px;
+	background: #fff;
+	border-radius: 0.6em;
+	box-shadow: 0 4px 8px 0 grey;
+    text-align: center;
+	
+}
+
+
+.login-form .first-entry{
+	padding-bottom: 15px;
+}
+
+
+.login-form .last-entry{
+	padding-bottom: 15px;
+}
+
+.login-form input{
+	display:block;
+}
+
+.login-form input[type="text"], [type="password"] {
+	padding: 10px;
+	width: 93.5%;
+}
+
+.login-form .first-button {
+    
+    
+	background-color: blue;
+	box-sizing: border-box;
+	color: #fff;
+	border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.login-form .reset{
+	text-align: center;
+	margin: 20px 16px;
+}
+
+.login-form .reset a{
+	color: royalblue;
+}
+
+.line{
+	align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center
+}
+
+.adjust{
+	display: inline;
+}
+
+
+.login-form .last-button{
+	text-align: center;
+	margin: 20px 85px;
+	background-color: forestgreen;
+	border-radius: 6px;
+	line-height: 48px;
+}
+
+.login-form .last-button a{
+	color: white;
+	font-family: arial rounded mt;
+}
+
+.aside-text{
+	text-align: center;
+	margin-top: 0;
+	margin-right: 27%;
+    float: right;
+    width: 32%;
+	box-sizing: border-box;
+	padding:20px;
+}
+
+.footer{
+	background: #fff;
+	color: #000;
+	text-align: center;
+	padding:20px;
+	margin-top:800px;
+	width: 100%;
+}
+
+@media(max-width:600px){
+	.box{
+		width:100%;
+		float:none;
+	}
+
+	.login-form{
+		width:100%;
+		float:none;
+	}
+}
