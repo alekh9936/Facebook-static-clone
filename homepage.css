@@ -367,7 +367,7 @@ h4{
   }
 }
 
-@media (min-width: 769px) and (max-width: 1440px) {
+@media only screen and (max-width: 2160px) {
   /* CSS To Target 767 px width of screen */
 
   .feed {
@@ -377,20 +377,9 @@ h4{
 }
 
 @media only screen and (max-width: 2160px) {
-  .headerleft {
-    width: 33.333%;
-  }
-}
-
-@media only screen and (max-width: 2160px) {
-  .headermiddle {
-    width: 33.333%;
-  }
-}
-
-@media only screen and (max-width: 2160px) {
-  .header__right {
-    width: 33.333%;
+  .header {
+    width: 100%;
+    overflox-x: scroll;
   }
 }
 
